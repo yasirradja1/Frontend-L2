@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav ul li {
+            padding: 0.5rem 1rem;
+        }
+
+        .hero1 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        .about {
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about-text {
+            margin-left: 2rem;
+        }
+
+        .service {
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .card {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .contact-me {
+            text-align: center;
+            padding: 2rem;
+            background-color: #f0f0f0;
+        }
+
+        .social-menu {
+            text-align: center;
+            padding: 2rem;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .social-menu a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Over ons</a>
+                <ul>
+                    <li><a href="PortfolioYasir.html">Yasir</a></li>
+                </ul>   
+            </li>
+        </ul>
+    </nav>
+
+    <section class="hero1">
+        <nav>
+            <h2>Frontend</h2>
+        </nav>
+        <section class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Yasir <span>Radja</span></h1>
+            <h3></h3>
+        </section>
+    </section>
+
+    <section class="about">
+        <section class="main">
+            <img src="img/FotoYassi.jpg">
+            <section class="about-text">
+                <h2>About Me</h2>
+                <h5>Software developer <span>& scrum master</span></h5>
+                <p>Hallo mijn naam is Yasir Radja ik ben 16 jaar en zit op het Techniek College Rotterdam waar ik de opleiding Software developer volg. In mijn opleiding leer ik over verschillende code talen die gaan over HTML CSS JAVASCRIPT PHP en MYSQL.
+                    Dit opleiding duurt ook 3 jaar waar je in het eerste jaar veel gaat leren en het 2e jaar op stage gaat en het laatste jaar afrond met een examen.Ik heb ervaring met HTML CSS en heb goed ervaring in plannings maken met trelloboard .Na MBO wil k 1 jaar werken daarnaast HBO volgen met opleiding Software Developer </p>
+            </section>
+        </section>
+    </section>
+
+    <section class="service">
+        <section class="title">
+            <h2>Mijn specialiteiten</h2>
+        </section>
+
+        <section class="box">
+            <section class="card">
+                <i class="fas fa-bars"></i>
+                <h5>Planner</h5>
+                <section class="pra">
+                    <p>
+                        Ik ben gespecialiseerd in het maken van planningen en ervoor zorgen dat alles op orde is in een team waarmee ik werk. Ik gebruik Trello Board om mijn planningen te maken en heb een keer per week ontmoetingen met het team.
+                        </p>
+                </section>
+            </section>
+
+            <section class="card">
+                <i class="far fa-user"></i>
+                <h5>HTMl CSS</h5>
+                <section class="pra">
+                    <p>Ik kan coden met HTML CSS en een responsive website maken.</p>
+                </section>
+            </section>
+
+            <section class="card">
+                <i class="far fa-bell"></i>
+                <h5>Wireframes</h5>
+                <section class="pra">
+                    <p>Ik heb ervaring in wireframes maken en sketsen voor een website. Met wireframes kan je een soort before maken van een website en een idee krijgen van hoe je website eruit kan zien.</p>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <section class="contact-me">
+        <p>Contact met mij opnemen?</p>
+       
